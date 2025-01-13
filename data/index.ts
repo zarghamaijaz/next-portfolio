@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building an internal product for our company",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,68 +72,62 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      title: "MERNCAMP Social Media App",
+      des: "A social media app built with Next.js, Express.js and MongoDB, and Socket.io.",
+      img: "/p1.webp",
+      iconLists: ["/re.svg", "/next.svg", "/node.png", "mongodb.svg", "socketio.png"],
       link: "https://github.com/adrianhajdin?tab=repositories",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "Online CV",
+      des: "An online CV built with pure HTML/CSS and vanilla JavaScript.",
+      img: "/p2.webp",
+      iconLists: ["/html.png", "/css.png", "/js.png", "/node.png",],
+      link: "https://zarghamaijaz.github.io/cvwebdev/",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      title: "CORUSCANT Technologies",
+      des: "A marketing website for a startup, built with Next.js, Tailwind CSS and a node.js backend.",
+      img: "/p3.webp",
+      iconLists: ["/re.svg", "/next.svg", "/node.png", "vercel.png"],
+      link: "https://www.coruscantai.tech",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "Animated 3D sphere",
+      des: "An interactive 3D sphere that can be rotated with the mouse, it changes color based on its rotation, combining GSAP animations and Three.js 3D effects..",
+      img: "/p4.webp",
+      iconLists: ["/next.svg", "/tail.svg", "/three.svg", "/gsap.svg"],
+      link: "https://3d-animated-sphere.vercel.app",
     },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "This is by far the best experience I've had. The quality and attention to detail were remarkable. I'll definitely be returning.",
+      name: "John D.",
+      title: "Entrepreneur",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "The results speak for themselves. My business has improved significantly thanks to your expertise. Thank you so much!",
+      name: "Mark T.",
+      title: "CEO",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Quick, reliable, and friendly service! I would recommend them to anyone looking for top-notch results.",
+      name: "Lisa M.",
+      title: "Freelancer",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "He did an outstanding job, and I'm very happy with the results.",
+      name: "Asad A.",
+      title: "CEO",
     },
   ];
   
@@ -180,15 +174,15 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Frontend React Developer",
+      desc: "Designed and developed Web Applications using React.js and modern frontend technologies.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Freelance Web Dev Project",
+      desc: "Led the dev of a mobile app for a client, from initial concept to deployment.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
@@ -205,13 +199,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/zarghamaijaz",
     },
-    {
-      id: 2,
-      img: "/twit.svg",
-    },
+    // {
+    //   id: 2,
+    //   img: "/twit.svg",
+    //   link: "https://www.linkedin.com/in/zargham-aijaz-779890154/"
+    // },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/zargham-aijaz-779890154/"
     },
   ];
