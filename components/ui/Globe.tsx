@@ -220,7 +220,7 @@ export function Globe({ globeConfig = {}, data = [] }: WorldProps) {
 
   useEffect(() => {
     if (globeRef.current) {
-      // _buildData();
+      _buildData();
       _buildMaterial();
     }
   }, [globeRef.current]);

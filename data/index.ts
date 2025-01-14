@@ -102,6 +102,22 @@ export const navItems = [
       iconLists: ["/next.svg", "/tail.svg", "/three.svg", "/gsap.svg"],
       link: "https://3d-animated-sphere.vercel.app",
     },
+    {
+      id: 5,
+      title: "Cloud Support VaporVM",
+      des: "A full-stack application that allows customers to get support for their cloud infrastructures by VaporVM Engineers.",
+      img: "/p5.webp",
+      iconLists: ["/re.svg", "/tail.svg"],
+      link: "https://cloudsupport.vaporvm.com/",
+    },
+    {
+      id: 6,
+      title: "DU Asset Management",
+      des: "An asset management system created for DU, to keep realtime track of their inventory.",
+      img: "/p6.webp",
+      iconLists: ["/re.svg", "/tail.svg"],
+      link: "https://du-devtest-react-appserv-uaenorth-002.azurewebsites.net/",
+    },
   ];
   
   export const testimonials = [
