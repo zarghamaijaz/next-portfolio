@@ -76,7 +76,7 @@ export const navItems = [
       des: "A social media app built with Next.js, Express.js and MongoDB, and Socket.io.",
       img: "/p1.webp",
       iconLists: ["/re.svg", "/next.svg", "/node.png", "mongodb.svg", "socketio.png"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://merncamp-client-peach.vercel.app/",
     },
     {
       id: 2,
